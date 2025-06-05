@@ -95,7 +95,7 @@ if(isset($_POST['submit'])){
 		<link rel="icon" type="image/png" href="assets/img/favicon.png">
 		
         <!-- TITLE -->
-        <title>Pro Shipping</title>
+        <title>Kaneo Pro Movers</title>
     </head>
 
     <body>
@@ -405,7 +405,7 @@ function googleTranslateElementInit() {
 					</div>
 					<div class="col-lg-4">
 						<div class="single-widget-bottom">
-							<p>Copyright <i class="bx bx-copyright"></i> 2020 <a href="index.html">Pro Shipping</a></p>
+							<p>Copyright <i class="bx bx-copyright"></i> 2020 <a href="index.html">Kaneo Pro Movers</a></p>
 						</div>
 					</div>
 					<div class="col-lg-3">
