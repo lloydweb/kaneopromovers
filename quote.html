@@ -468,7 +468,7 @@ function googleTranslateElementInit() {
 					<div class="contact-form">
 						<form class="row g-3" action="https://formsubmit.co/kaneopromovers@gmail.com" method="POST">
 							<div class="about-img">
-								<img src="assets/img/quote2.png" alt="Image">
+								<img src="assets/img/quote1.png" alt="Image">
 							</div>
 						<!--<form id="contactForm">-->
 						<div class="row">
@@ -502,29 +502,52 @@ function googleTranslateElementInit() {
 	
 								<div class="col-lg-6 col-sm-6">
 									<div class="form-group">
-										<input type="text" name="name" id="name" class="form-control" required data-error="Please enter moving from address" placeholder="Moving From Address">
+										<input type="text" name="address" id="address" class="form-control" required data-error="Please enter moving from address" placeholder="Moving From Address">
 										<div class="help-block with-errors"></div>
 									</div>
 								</div>
 	
 								<div class="col-lg-6 col-sm-6">
 									<div class="form-group">
-										<input type="text" name="msg_subject" id="name" class="form-control" required data-error="Please enter moving to address" placeholder="Moving To Address">
+										<input type="text" name="address" id="address" class="form-control" required data-error="Please enter moving to address" placeholder="Moving To Address">
 										<div class="help-block with-errors"></div>
 									</div>
 								</div>
 
 								<div class="col-lg-6 col-sm-6">
 									<div class="form-group">
-										<input type="text" name="name" id="name" class="form-control" required data-error="Please enter moving date" placeholder="Moving Date">
+										<!--<input type="text" name="name" id="name" class="form-control" required data-error="Please enter moving date" placeholder="Moving Date">-->
+										<fieldset>
+											<label for="">Date:
+												<input type="date" name="" value=""> 
+											</label>
+										</fieldset>
 										<div class="help-block with-errors"></div>
 									</div>
 								</div>
-	
+								
 								<div class="col-lg-6 col-sm-6">
 									<div class="form-group">
-										<input type="text" name="msg_subject" id="name" class="form-control" required data-error="Please enter how many bedroom" placeholder="How Many Bedroom">
+												 
+											
+										<select name="bedroom">
+											<option value="none">Select How Many Bedroom</option>
+											<option value="1 bedroom apartment">1 Bedroom Apartment</option>
+											<option value="2 bedroom apartment">2 Bedroom Apartment</option>
+											<option value="3 bedroom apartment">3 Bedroom Apartment</option>
+											<option value="4 bedroom apartment">4 Bedroom Apartment</option>
+											<option value="1 bedroom house">1 Bedroom house</option>
+											<option value="2 bedroom house">2 Bedroom house</option>
+											<option value="3 bedroom house">3 Bedroom house</option>
+											<option value="4 bedroom house">4 Bedroom house</option>
+											<option value="1 bedroom house">1 Bedroom Basement</option>
+											<option value="1 bedroom house">2 Bedroom Basement</option>
+											<option value="commercial">Commercial</option>
+										</select>
+									
+										<!--<input type="text" name="bedroom" id="bedroom" class="form-control" required data-error="Please enter how many bedroom" placeholder="How Many Bedroom">-->
 										<div class="help-block with-errors"></div>
+										
 									</div>
 								</div>
 
