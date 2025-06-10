@@ -470,6 +470,14 @@ function googleTranslateElementInit() {
 				<div class="contact-wrap contact-pages mb-0">
 					<div class="contact-form">
 						<form class="row g-3" action="https://formsubmit.co/kaneopromovers@gmail.com" method="POST">
+
+	                        <!--honeypot-->
+	                        <input type="text" name="_honey" style="display: none;">
+	                        <!--display captcha-->
+                            <input type="hidden" name="_captcha" valve="false">
+	                        <!--submit message-->
+                            <input type="hidden" name="_next" value="https://kaneopromovers.com/success.html">
+
 						<div class="section-title">
 							<span class="pumpkin-color">information</span>
 							<h2>Drop Us A Message For Any Query</h2>
@@ -529,11 +537,20 @@ function googleTranslateElementInit() {
 <!-- End Contact Area -->
 
 		<!-- Start Map Area -->
-		<div class="contact-map-area">
+		<!--<div class="contact-map-area">
 			<div id="map"></div>
+		</div>-->
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2495.4530922399304!2d-114.03568190670188!3d51.28438549895786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53715f42898c293f%3A0x65b09fee4ba05552!2sKaneo%20Pro%20Movers!5e0!3m2!1sen!2sca!4v1749518542055!5m2!1sen!2sca" 
+					width="1300" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
 		</div>
 		<!-- End Map Area -->
 
+		<br><br>
 
 		<!-- Start Footer Bottom Area -->
 		<footer class="footer-bottom-area fun-blue-bg">
