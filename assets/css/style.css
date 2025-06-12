@@ -1357,8 +1357,8 @@ Prevoz SliderArea Style
 }
 
 .prevoz-slider-item .prevoz-slider-text span {
-  color: #ffffff;
-  font-size: 15px;
+  color:#ffffff;
+  font-size: 50px;
   display: block;
   margin-bottom: 10px;
 }
@@ -1369,9 +1369,16 @@ Prevoz SliderArea Style
   margin-bottom: 30px;
 }
 
+.contact-link {
+  
+  margin-right: 30px;
+  background-color: #ffffff
+  
+}
+
 .prevoz-slider-item .prevoz-slider-text p {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 40px;
   margin-bottom: 45px;
 }
 
