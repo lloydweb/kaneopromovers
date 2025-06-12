@@ -1357,7 +1357,7 @@ Prevoz SliderArea Style
 }
 
 .prevoz-slider-item .prevoz-slider-text span {
-  color:#ffffff;
+  color:#fa4612;
   font-size: 50px;
   display: block;
   margin-bottom: 10px;
@@ -1369,17 +1369,17 @@ Prevoz SliderArea Style
   margin-bottom: 30px;
 }
 
+.prevoz-slider-item .prevoz-slider-text p {
+  color: #ffffff;
+  font-size: 40px;
+  margin-bottom: 45px;
+}
+
 .contact-link {
   
   margin-right: 30px;
   background-color: #ffffff
   
-}
-
-.prevoz-slider-item .prevoz-slider-text p {
-  color: #ffffff;
-  font-size: 40px;
-  margin-bottom: 45px;
 }
 
 .prevoz-slider-item .prevoz-slider-text .slider-btn .default-btn {
