@@ -1364,13 +1364,13 @@ Prevoz SliderArea Style
 }
 
 .prevoz-slider-item .prevoz-slider-text h1 {
-  font-size: 80px;
+  font-size: 100px;
   color: #fa4612;
   margin-bottom: 30px;
 }
 
 .prevoz-slider-item .prevoz-slider-text p {
-  color: #ffffff;
+  color: #fa4612;
   font-size: 40px;
   margin-bottom: 45px;
 }
