@@ -1,5 +1,12 @@
 User-agent: Googlebot
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /login/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /cgi-bin/
+Disallow: /temp/
+Disallow: /result.php
 Sitemap: https://kaneopromovers.com/sitemap.xml
 Sitemap: https://www.kaneopromovers.com/sitemap.xml
