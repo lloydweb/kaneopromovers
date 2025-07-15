@@ -1,5 +1,4 @@
-User-agent: *
-Allow: /
-
+User-agent: Googlebot
+Disallow:
 Sitemap: https://kaneopromovers.com/sitemap.xml
 Sitemap: https://www.kaneopromovers.com/sitemap.xml
