@@ -1,0 +1,13 @@
+POST /IndexNow HTTP/1.1
+Content-Type: application/json; charset=utf-8
+Host: api.indexnow.org
+{
+  "host": "www.kaneopromovers.com",
+  "key": "00d0e90f46d0438788761e45d6689cf2",
+  "keyLocation": "https://www.kaneopromovers.com/00d0e90f46d0438788761e45d6689cf2.txt",
+  "urlList": [
+      "https://www.kaneopromovers.com/url1",
+      "https://www.kaneopromovers.com/folder/url2",
+      "https://www.kaneopromovers.com/url3"
+      ]
+}
