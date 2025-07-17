@@ -1,5 +1,8 @@
 # robots.txt for https://www.kaneopromovers.com
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
 User-agent: *
-Disallow:
+Allow: /
 
 Sitemap: https://www.kaneopromovers.com/sitemap.xml
