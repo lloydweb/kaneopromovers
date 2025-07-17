@@ -1,6 +1,7 @@
-User-agent: *
-Disallow:
-Sitemap: https://kaneopromovers.com/sitemap.xml
+User-agent: goodglebot*
+
+allow:
+
 Sitemap: https://www.kaneopromovers.com/sitemap.xml
 Sitemap: https://www.kaneopromovers.com/index-sitemap.xml
 Sitemap: https://www.kaneopromovers.com/contact-sitemap.xml
