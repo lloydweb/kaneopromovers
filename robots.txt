@@ -1,4 +1,3 @@
-# robots.txt for https://www.kaneopromovers.com
 User-agent: Googlebot
 Disallow: /nogooglebot/
 
