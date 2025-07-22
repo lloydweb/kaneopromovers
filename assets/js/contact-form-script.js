@@ -1,6 +1,6 @@
 /*==============================================================*/
 // Raque Contact Form  JS
-/*==============================================================*/
+/*==============================================================
 (function ($) {
     "use strict"; // Start of use strict
     $("#contactForm").validator().on("submit", function (event) {
@@ -60,3 +60,4 @@
         $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
     }
 }(jQuery)); // End of use strict
+*/
