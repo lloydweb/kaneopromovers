@@ -1,62 +1,8 @@
-<!-- ?php
-
-include "config/database.php";
-
-if(isset($_POST['submit'])){
-
-	$tid = $_POST['tid'];
-
-
-
-
-	if($tid == ""){
-
-	echo "<script>alert('Please enter a tracking Number')</script>";
-
-	}else{
-
-
-		$sql= "SELECT * FROM track WHERE pid = '$tid'";
-		$result = mysqli_query($link,$sql);
-		if(mysqli_num_rows($result) > 0){
-		  $row = mysqli_fetch_assoc($result);
-
-		  $pid = $row['pid'];
-		  if(isset($row['pid'])){
-
-			  $pid = $row['pid'];
-
-
-
-	if($tid == $pid){
-
-
-
-	header("Location:result.php?track=$tid");
-
-	}
-
-	else{
-
-		echo "<script>alert('No record for the track number')</script>";
-	}
-
-}
-
-}
-
-}
-}
-
-?>
--->
-
-
 <!doctype html>
 <html lang="zxx">
     
 <!-- Mirrored from templates.envytheme.com/prevoz/default/moving-services.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 22 Feb 2020 20:49:34 GMT -->
-<head>
+    <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -228,17 +174,76 @@ if(isset($_POST['submit'])){
               }
 			  ]
 		     }
-			</script>
+		</script>
+    </head>
 
 
-</head>
-</div>
 
 <script type="text/javascript">
 	function googleTranslateElementInit() {
 	  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
 	}
-	</script>
+	
+	type="application/ld+json">
+			{
+			  "@context": "https://schema.org",
+			  "@type": "MovingCompany",
+			  "name": "Kaneo Pro Movers",
+			  "url": "https://www.kaneopromovers.com",
+			  "logo": "https://www.kaneopromovers.com/assets/img/logo/logo-one.jpg",
+			  "image": "https://www.kaneopromovers.com/assets/img/4",
+			  "description": "Kaneo Pro Movers is a professional moving company offering residential moving services and commercial moving services, packing and unpacking, and local moving",
+			  "address": {
+				"@type": "PostalAddress",
+				"streetAddress": "1060 Channelside Dr SW",
+				"addressLocality": "Airdrie",
+				"addressRegion": "AB",
+				"postalCode": "T4B 3K4",
+				"addressCountry": "CA"
+			  },
+
+			  "telephone": "+1-587-378-5954",
+			  "email": "info@kaneopromovers.com",
+			  "priceRange": "$$",
+			  "openingHours": [
+				"Mo-Fr 12:00-24:00",
+				"Sa 12:00-24:00",
+				"Su 12:00-24:00"
+			  ],
+			  "geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "51.2917",
+				"longitude": "-114.0144"
+			  },
+			  "sameAs": [
+				"https://www.facebook.com/kaneopromoverspage",
+				"https://www.instagram.com/kaneopromovers/"
+			  ],
+
+			  "areaServed": [
+              {
+               "@type": "Place",
+               "name": "Airdrie"
+              },
+              {
+               "@type": "Place",
+               "name": "Calgary"
+              },
+              {
+               "@type": "Place",
+               "name": "Red Deer"
+              },
+              {
+               "@type": "Place",
+               "name": "Lacombe"
+              },
+              {
+               "@type": "Place",
+               "name": "Ponoka"
+              }
+			  ]
+		     }
+		</script>
 
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
@@ -1167,9 +1172,9 @@ if(isset($_POST['submit'])){
 									</li>
 								</ul>
 							</div>
-						</div>-->
+						</div>
 					</div>
-				</div>
+				</div>-->
 			</div>
 		</section>
 		<!-- End Testimonials Area -->
