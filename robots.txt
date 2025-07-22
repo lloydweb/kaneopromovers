@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /
+Disallowed: /
 
 Sitemap: https://www.kaneopromovers.com/sitemap.xml
