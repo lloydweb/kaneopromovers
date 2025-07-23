@@ -1369,14 +1369,14 @@ Prevoz SliderArea Style
   margin-bottom: 30px;
 }
 
-.prevoz-slider-item .prevoz-slider-text h2 {
-  font-size: 80px;
+.prevoz-slider-item .prevoz-slider-text h5 {
+  font-size: 60px;
   color: #fa4612;
   margin-bottom: 30px;
 }
 
-.prevoz-slider-item .prevoz-slider-text h3 {
-  font-size: 80px;
+.prevoz-slider-item .prevoz-slider-text h6 {
+  font-size: 60px;
   color: #fa4612;
   margin-bottom: 30px;
 }
