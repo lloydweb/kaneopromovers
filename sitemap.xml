@@ -4,44 +4,51 @@
 
   <url>
     <loc>https://www.kaneopromovers.com/index.html</loc>
-    <lastmod>2025-07-21</lastmod>
+    <lastmod>2025-07-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://www.kaneopromovers.com/about.html</loc>
-    <lastmod>2025-07-20</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.kaneopromovers.com/contact.html</loc>
-    <lastmod>2025-07-15</lastmod>
-    <changefreq>yearly</changefreq>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://www.kaneopromovers.com/quote.html</loc>
-    <lastmod>2025-07-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://www.kaneopromovers.com/moving-services.html</loc>
-    <lastmod>2025-07-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://www.kaneopromovers.com/moving-services-details.html</loc>
-    <lastmod>2025-07-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.kaneopromovers.com/locations.html</loc>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
 
   <!-- Add more <url> blocks as needed -->
