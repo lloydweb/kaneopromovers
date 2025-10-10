@@ -44,6 +44,41 @@
     <priority>0.5</priority>
   </url>
 
+  <url>
+    <loc>https://www.kaneopromovers.com/airdrie.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.kaneopromovers.com/calgary.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.kaneopromovers.com/chestermere.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.kaneopromovers.com/cochrane.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.kaneopromovers.com/okotoks.html</loc>
+    <lastmod>2025-10-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
 
   <!-- Add more <url> blocks as needed -->
 
