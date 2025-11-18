@@ -7245,4 +7245,16 @@ Careers Area Style
   background-color: #e74c3c; /* Color on hover (red) */
 
 }
+
+.container1 {
+  display: flex;
+  justify-content: space-between;  /* left + right */
+  align-items: center;
+  width: 100%;                     /* optional */
+  padding: 10px;
+}
+
+.left-img, .right-img {
+  width: 120px;                    /* adjust size */
+}
 /*# sourceMappingURL=style.css.map */
